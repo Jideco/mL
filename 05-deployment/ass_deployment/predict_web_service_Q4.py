@@ -6,7 +6,7 @@ from typing import Dict, Any
 
 app = FastAPI(title="client-churn-prediction")
 
-model_name = 'pipeline_v1.bin'
+model_name = 'pipeline_v2.bin'
 
 with open(model_name, 'rb') as f_in:
     pipeline = pickle.load(f_in)
