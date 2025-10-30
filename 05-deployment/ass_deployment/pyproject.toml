@@ -1,0 +1,11 @@
+[project]
+name = "ass-deployment"
+version = "0.1.0"
+description = "Churn prediction service assignment"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.120.2",
+    "scikit-learn==1.6.1",
+    "uvicorn>=0.38.0",
+]
