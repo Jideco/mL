@@ -1,0 +1,1 @@
+!git clone git@github.com:alexeygrigorev/clothing-dataset-small.git
